@@ -1,0 +1,51 @@
+html {
+  font-size: 14px;
+  background-color: #f8f8f8;
+}
+
+/*navigation*/
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:hover {
+    background-color: white;
+    color: #399bd1;
+}
+
+.navbar-default {
+  background-color: white;
+}
+
+nav ul li{
+  font-family: Open Sans, serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*jumbotron*/
+.jumbotron {
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-7/jumbotron.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 11.85rem 0
+}
+
+.jumbotron h1 {
+  font-family: Monoton;
+  font-size: 7.1rem;
+  color: white;
+}
+.jumbotron p {
+  width: 51.3rem;
+  margin: auto;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #399bd1;
+  width: 11.4rem;
+  padding: 1.3rem 0;
+  margin-top: 2.8rem;
+  font-size: 1.5rem
+}
